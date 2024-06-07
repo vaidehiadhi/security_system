@@ -1,0 +1,5 @@
+version: '3'
+services:
+  my_camera_app:
+    image: your_image_name
+    network_mode: host
