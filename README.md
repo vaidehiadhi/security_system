@@ -98,11 +98,11 @@ sequenceDiagram
 Clone the repository or download the script:
 
 ```bash
-  git clone https://github.com/vaidehiadhi/security-system.git (change)
+  git clone https://github.com/vaidehiadhi/security_system.git
 ```
 Navigate to the project directory:
 ```bash
-cd security_system (change)
+cd security_system
 ```
 Create a virtual environment (optional but recommended):
 ```bash
@@ -119,7 +119,7 @@ pip install -r requirements.txt
 
 Run the script using the following command:
 ```bash
-python security_system.py (change)
+python security_system.py
 ```
 The live feed will display on your screen, and recording will start when motion is detected.
 
