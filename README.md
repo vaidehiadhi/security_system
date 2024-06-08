@@ -1,27 +1,27 @@
 
 # Security System with OpenCV
 
-This Python script implements a motion detection system using OpenCV. It captures video from the default camera, detects faces and bodies using Haarcascades, and records video when motion is detected. The recording stops after a specified period of no motion detected and saves recored videos with the date and time.
+This Python script implements a motion detection system using OpenCV. It captures video from the default camera, detects faces and bodies using Haar cascades, and records video when motion is detected. The recording stops after a specified period of no motion detected and saves recored videos with the date and time.
 
 
 ## Documentation
 
 This Python Script implements a motion detection system using OpenCV.
-It captures video from the default camera, detects faces and bodies using Haarcascades,
+It captures video from the default camera, detects faces and bodies using Haar cascades,
 and records video when motion is detected. The recording stops after a specified period
 of no motion detected.
 
 **Key Functionalities:**
 
 * Accesses the default webcam.
-* Employs Haarcascades for face and body detection.
+* Employs Haar cascades for face and body detection.
 * Initiates video recording upon detection and continues for a specified duration after the last detection.
 * Displays a live feed with bounding boxes around detected faces.
 * Allows for termination using the 'q' key.
 
 **Limitations:**
 
-* Relies on pre-trained Haarcascades, which might have limitations in accuracy and robustness.
+* Relies on pre-trained Haar cascades, which might have limitations in accuracy and robustness.
 * Records continuously upon detection, which could lead to large video files. More sophisticated motion detection could be implemented for efficiency.
 * Lacks features like email or cloud storage integration for recordings.
 
